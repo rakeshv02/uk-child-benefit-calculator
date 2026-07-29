@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UK Child Benefit Calculator 2024/25 — High Income Charge | Tabutility</title>
+  <meta name="description" content="Calculate your UK Child Benefit entitlement and High Income Child Benefit Tax Charge. Find out how much child benefit you receive and whether you need to pay any back. Free 2024/25 calculator."/>
+  <link rel="canonical" href="https://uk-child-benefit-calculator.tabutility.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://uk-child-benefit-calculator.tabutility.com/"/>
+  <meta property="og:title" content="UK Child Benefit Calculator 2024/25 — High Income Charge"/>
+  <meta property="og:description" content="Calculate your UK Child Benefit and High Income Tax Charge. Find out how much you keep."/>
+  <meta property="og:site_name" content="Tabutility"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👶</text></svg>"/>
+  <meta name="theme-color" content="#1a1a2e"/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"UK Child Benefit Calculator","url":"https://uk-child-benefit-calculator.tabutility.com/","description":"Calculate UK Child Benefit entitlement and High Income Child Benefit Tax Charge for 2024/25.","applicationCategory":"FinanceApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"provider":{"@type":"Organization","name":"Tabutility","url":"https://tabutility.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much is Child Benefit in 2024/25?","acceptedAnswer":{"@type":"Answer","text":"For 2024/25, Child Benefit is £25.60 per week for the first child and £16.95 per week for each additional child."}},{"@type":"Question","name":"What is the High Income Child Benefit Tax Charge?","acceptedAnswer":{"@type":"Answer","text":"If either parent earns over £60,000, you must repay 1% of your Child Benefit for every £200 you earn above £60,000. Above £80,000, you repay 100%."}},{"@type":"Question","name":"Should I still claim Child Benefit if I earn over £80,000?","acceptedAnswer":{"@type":"Answer","text":"Yes — it is still worth claiming because it builds your National Insurance record towards your State Pension, even if you repay the full amount via Self Assessment."}}]}</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7039091592734005" crossorigin="anonymous"></script>
+  <script>window.addEventListener('load',function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-78VZWJ5B1W';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','G-78VZWJ5B1W');});</script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;font-family:'Segoe UI',system-ui,Arial,sans-serif;background:#f8fafc;color:#1e293b;line-height:1.6}
+    a{color:#4f46e5;text-decoration:none}
+    nav{background:#1a1a2e;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+    .nav-brand{color:#fff;font-size:18px;font-weight:800}
+    .nav-links a{color:rgba(255,255,255,0.8);font-size:14px;margin-left:20px;font-weight:500}
+    .hero{background:linear-gradient(135deg,#1e3a5f,#2563eb);color:#fff;padding:40px 20px 32px;text-align:center}
+    .hero h1{font-size:clamp(24px,4vw,38px);font-weight:900;margin:0 0 10px}
+    .hero p{color:rgba(255,255,255,0.8);margin:0;font-size:16px}
+    .wrap{max-width:680px;margin:0 auto;padding:32px 20px 60px}
+    .card{background:#fff;border-radius:16px;padding:28px;box-shadow:0 2px 16px rgba(0,0,0,0.07);margin-bottom:24px;border:1.5px solid #e8ecf2}
+    .card h2{font-size:18px;font-weight:800;margin:0 0 20px}
+    .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media(max-width:500px){.row2{grid-template-columns:1fr}}
+    label{display:block;font-size:13px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.4px}
+    .prefix-wrap{position:relative;margin-bottom:16px}
+    .prefix{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#64748b;font-weight:700;font-size:17px;pointer-events:none}
+    input[type=number]{width:100%;padding:12px 14px 12px 30px;border:2px solid #e2e8f0;border-radius:10px;font-size:17px;font-weight:700;color:#1e293b;background:#f8fafc;outline:none;transition:border 0.2s}
+    input:focus{border-color:#2563eb;background:#fff}
+    .stepper{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+    .step-btn{width:40px;height:40px;border:2px solid #e2e8f0;border-radius:10px;background:#fff;cursor:pointer;font-size:22px;font-weight:700;color:#2563eb;display:flex;align-items:center;justify-content:center}
+    .step-btn:hover{background:#2563eb;color:#fff;border-color:#2563eb}
+    .step-num{font-size:28px;font-weight:900;min-width:32px;text-align:center}
+    .result-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+    .res-box{border-radius:14px;padding:20px;text-align:center}
+    .res-box.blue{background:#eff6ff;border:1.5px solid #bfdbfe}
+    .res-box.green{background:#f0fdf4;border:1.5px solid #bbf7d0}
+    .res-box.orange{background:#fff7ed;border:1.5px solid #fed7aa}
+    .res-box.red{background:#fff1f2;border:1.5px solid #fecdd3}
+    .res-num{font-size:clamp(22px,4vw,30px);font-weight:900;color:#1e293b;line-height:1}
+    .res-label{font-size:12px;color:#64748b;font-weight:600;margin-top:4px}
+    .detail-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #e2e8f0;font-size:15px}
+    .detail-row:last-child{border-bottom:none;font-weight:700}
+    .notice{padding:14px 16px;border-radius:10px;font-size:14px;margin-top:16px}
+    .notice.green{background:#f0fdf4;border-left:4px solid #22c55e;color:#166534}
+    .notice.orange{background:#fef3c7;border-left:4px solid #f59e0b;color:#92400e}
+    .notice.red{background:#fff1f2;border-left:4px solid #ef4444;color:#991b1b}
+    .ad-wrap{margin:20px 0;text-align:center;min-height:90px;background:#f8fafc;border-radius:8px}
+    footer{background:#1a1a2e;color:rgba(255,255,255,0.6);text-align:center;padding:24px 20px;font-size:14px}
+    footer a{color:#818cf8}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="https://tabutility.com" class="nav-brand">⚡ Tabutility</a>
+  <div class="nav-links">
+    <a href="https://tabutility.com">All Tools</a>
+    <a href="https://tabutility.com/blog/">Blog</a>
+  </div>
+</nav>
+<div class="hero">
+  <h1>👶 UK Child Benefit Calculator</h1>
+  <p>2024/25 rates — includes High Income Child Benefit Tax Charge</p>
+</div>
+<div class="wrap">
+  <div class="card">
+    <h2>Your Details</h2>
+    <label>Number of Children</label>
+    <div class="stepper">
+      <button class="step-btn" onclick="changeChildren(-1)">−</button>
+      <span class="step-num" id="children-num">2</span>
+      <button class="step-btn" onclick="changeChildren(1)">+</button>
+      <span style="font-size:14px;color:#64748b;font-weight:600" id="children-label">children</span>
+    </div>
+    <label>Higher Earner's Annual Income (adjusted net)</label>
+    <div class="prefix-wrap">
+      <span class="prefix">£</span>
+      <input type="number" id="income" value="65000" min="0" step="1000" oninput="calc()"/>
+    </div>
+    <div style="font-size:13px;color:#64748b;margin-top:-8px">Adjusted net income = gross salary − pension contributions − gift aid donations</div>
+  </div>
+
+  <div class="card" id="result-card">
+    <h2>Child Benefit Summary</h2>
+    <div class="result-grid">
+      <div class="res-box blue"><div class="res-num" id="r-gross-weekly">—</div><div class="res-label">Child Benefit per week</div></div>
+      <div class="res-box blue"><div class="res-num" id="r-gross-annual">—</div><div class="res-label">Child Benefit per year</div></div>
+      <div class="res-box orange"><div class="res-num" id="r-charge">—</div><div class="res-label">Tax charge (annual)</div></div>
+      <div class="res-box green"><div class="res-num" id="r-net">—</div><div class="res-label">Net benefit kept</div></div>
+    </div>
+    <div class="detail-row"><span>First child (£25.60/week)</span><span id="d-first">—</span></div>
+    <div class="detail-row"><span>Additional children (£16.95/week each)</span><span id="d-add">—</span></div>
+    <div class="detail-row"><span>Total annual Child Benefit</span><span id="d-gross">—</span></div>
+    <div class="detail-row"><span>High Income Charge</span><span id="d-charge">—</span></div>
+    <div class="detail-row"><span>Effective annual benefit</span><span id="d-net">—</span></div>
+    <div id="notice" class="notice green"></div>
+  </div>
+
+  <div class="ad-wrap">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7039091592734005" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </div>
+
+  <div class="card">
+    <h2>2024/25 Child Benefit Rates</h2>
+    <div class="detail-row"><span>First child</span><span>£25.60 per week</span></div>
+    <div class="detail-row"><span>Additional children</span><span>£16.95 per week each</span></div>
+    <div class="detail-row"><span>High Income threshold</span><span>£60,000</span></div>
+    <div class="detail-row"><span>Full repayment threshold</span><span>£80,000</span></div>
+    <p style="font-size:13px;color:#64748b;margin:16px 0 0">Even if you earn over £80,000 it is still worth claiming Child Benefit as it counts towards your National Insurance record.</p>
+  </div>
+</div>
+<footer>
+  <p>© 2025 <a href="https://tabutility.com">Tabutility</a> — Free Online Tools</p>
+</footer>
+<script>
+  let children=2;
+  // 2024/25 rates
+  const FIRST_WEEKLY=25.60, ADD_WEEKLY=16.95;
+  const THRESHOLD=60000, TAPER_PER=200, MAX_INCOME=80000;
+
+  function changeChildren(d){
+    children=Math.max(1,Math.min(10,children+d));
+    document.getElementById('children-num').textContent=children;
+    document.getElementById('children-label').textContent=children===1?'child':'children';
+    calc();
+  }
+
+  function calc(){
+    const income=parseFloat(document.getElementById('income').value)||0;
+    const addChildren=Math.max(0,children-1);
+    const weeklyBenefit=FIRST_WEEKLY+(addChildren*ADD_WEEKLY);
+    const annualBenefit=weeklyBenefit*52;
+
+    let chargeRate=0;
+    if(income>THRESHOLD){
+      const over=Math.min(income-THRESHOLD,MAX_INCOME-THRESHOLD);
+      chargeRate=Math.min(1, over/(TAPER_PER*100)); // 1% per £200 over threshold
+    }
+    if(income>=MAX_INCOME) chargeRate=1;
+    const annualCharge=annualBenefit*chargeRate;
+    const netBenefit=annualBenefit-annualCharge;
+
+    const f=(n)=>'£'+n.toFixed(2);
+    const fa=(n)=>'£'+Math.round(n).toLocaleString('en-GB');
+
+    document.getElementById('r-gross-weekly').textContent=f(weeklyBenefit);
+    document.getElementById('r-gross-annual').textContent=fa(annualBenefit);
+    document.getElementById('r-charge').textContent=fa(annualCharge);
+    document.getElementById('r-net').textContent=fa(netBenefit);
+
+    document.getElementById('d-first').textContent='£'+FIRST_WEEKLY+'/wk = '+fa(FIRST_WEEKLY*52)+'/yr';
+    document.getElementById('d-add').textContent=addChildren>0?'£'+ADD_WEEKLY+' × '+addChildren+' = '+fa(ADD_WEEKLY*addChildren*52)+'/yr':'£0';
+    document.getElementById('d-gross').textContent=fa(annualBenefit);
+    document.getElementById('d-charge').textContent=fa(annualCharge)+(chargeRate>0?' ('+(Math.round(chargeRate*100))+'% repaid)':'');
+    document.getElementById('d-net').textContent=fa(netBenefit);
+
+    const notice=document.getElementById('notice');
+    if(income<=THRESHOLD){
+      notice.className='notice green';
+      notice.textContent='✅ Your income is below £60,000 — you keep 100% of your Child Benefit with no tax charge.';
+    } else if(income<MAX_INCOME){
+      notice.className='notice orange';
+      notice.textContent=`⚠️ Your income is above £60,000. You'll repay ${Math.round(chargeRate*100)}% of Child Benefit (£${Math.round(annualCharge).toLocaleString()}) via Self Assessment. You still receive a net benefit of £${Math.round(netBenefit).toLocaleString()}/yr.`;
+    } else {
+      notice.className='notice red';
+      notice.textContent='ℹ️ Your income is above £80,000 — the full amount is repaid via Self Assessment. Still claim it to protect your National Insurance record for State Pension.';
+    }
+  }
+  calc();
+</script>
+</body>
+</html>
